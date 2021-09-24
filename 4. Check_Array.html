@@ -1,0 +1,19 @@
+<! Write a JavaScript function to check whether an `input` is an array or not.>
+
+<html>
+<body>
+<script>
+function is_array(i){
+	if(toString.call(i) === "[object Array]"){
+		return i + " : True - This is an array";
+	}
+	else{
+		return i + " : False - This is not an array";
+	}
+}
+console.log(is_array([1,2,4,0]))
+console.log(is_array('testcase'))
+
+</script>
+</body>
+</html>
